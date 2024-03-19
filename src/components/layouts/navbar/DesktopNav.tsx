@@ -5,7 +5,7 @@ import { FC } from 'react'
 
 const DesktopNav: FC = () => {
 	return (
-		<div className='hidden p-4 bg-white lg:block animate-in fade-in zoom-in'>
+		<div className='hidden py-4 bg-white lg:block animate-in fade-in zoom-in'>
 			<div className='flex justify-between mx-4 md:mx-[4rem] xl:mx-[8rem] items-center'>
 				<div>
 					<Link
