@@ -6,7 +6,10 @@ const questrial = Questrial({ subsets: ['latin'], weight: ['400'] })
 
 const RoomSection: FC = () => {
 	return (
-		<div className='py-20 lg:py-20 flex flex-col gap-6 lg:gap-10 items-center bg-[#f1fffa]'>
+		<div
+			id='rooms'
+			className='py-20 lg:py-20 flex flex-col gap-6 lg:gap-10 items-center bg-[#f1fffa]'
+		>
 			<div className='w-full flex flex-col'>
 				<div className='mx-[10px] lg:mx-[4rem] xl:mx-[8rem]'>
 					<div className='flex flex-col items-center justify-center gap-2'>

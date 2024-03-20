@@ -4,7 +4,10 @@ import { featuresContent } from '@/constants'
 
 const FeaturesSection: FC = () => {
 	return (
-		<div className='py-4 md:py-6 lg:py-20 flex flex-col gap-10 mx-[10px] lg:mx-[4rem] xl:mx-[8rem] items-center'>
+		<div
+			id='features'
+			className='py-4 md:py-6 lg:py-20 flex flex-col gap-10 mx-[10px] lg:mx-[4rem] xl:mx-[8rem] items-center'
+		>
 			<h1 className='w-full text-3xl sm:text-4xl lg:text-5xl font-semibold text-center leading-[125%] lg:leading-[130%]'>
 				Elevating Your Experience with <br /> Our Websites{' '}
 				<span className='text-green-brand'>Key Features</span>
