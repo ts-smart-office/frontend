@@ -23,7 +23,7 @@ const AboutSection: FC = () => {
 			<div className='flex flex-col w-full'>
 				<div className='grid grid-rows-1 gap-6 lg:gap-4 grid-col-1 md:grid-cols-2 lg:grid-cols-12'>
 					<div className='flex flex-col gap-2 md:col-span-1 lg:col-span-5 col-span-1'>
-						<LabelImage label='100+' text='Successfully reservation' />
+						<LabelImage label='100+' text='Successfully Reservation' />
 						<div className='relative h-64 rounded-md lg:h-[420px]'>
 							<Image
 								src={'/images/buildingOne.jpg'}
@@ -34,7 +34,7 @@ const AboutSection: FC = () => {
 						</div>
 					</div>
 					<div className='flex flex-col gap-2 md:col-span-1 lg:col-span-7 col-span-1'>
-						<LabelImage label='100+' text='Successfully reservation' />
+						<LabelImage label='100%' text='Customer Satisfaction Rate' />
 						<div className='relative h-64 rounded-md lg:h-[420px]'>
 							<Image
 								src={'/images/buildingTwo.jpg'}
