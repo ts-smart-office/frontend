@@ -1,6 +1,7 @@
 import AboutSection from '@/components/layouts/AboutSection'
 import FeaturesSection from '@/components/layouts/FeaturesSection'
 import HeroSection from '@/components/layouts/HeroSection'
+import RoomSection from '@/components/layouts/RoomSection'
 import { FC } from 'react'
 
 const Homepage: FC = () => {
@@ -9,6 +10,7 @@ const Homepage: FC = () => {
 			<HeroSection />
 			<FeaturesSection />
 			<AboutSection />
+			<RoomSection />
 		</>
 	)
 }

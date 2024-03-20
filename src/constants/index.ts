@@ -8,10 +8,21 @@ export const navMenu = [
 export const listRooms = [
 	{
 		id: ~~(Math.random() * 100) + 1,
-		name: "LEVI'S® WOMEN'S XL TRUCKER JACKET",
-		price: 350000,
-		description:
-			'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa accusantium, aspernatur provident beatae corporis veniam atque facilis, consequuntur assumenda, vitae dignissimos iste exercitationem dolor eveniet alias eos ullam nesciunt voluptatum',
+		name: 'Meeting Room',
+		location: 'Laweyan, Surakarta',
+		price: [500, 950],
+	},
+	{
+		id: ~~(Math.random() * 100) + 1,
+		name: 'Podcast Studio',
+		location: 'Laweyan, Surakarta',
+		price: [500, 950],
+	},
+	{
+		id: ~~(Math.random() * 100) + 1,
+		name: 'Amphitheater',
+		location: 'Laweyan, Surakarta',
+		price: [500, 950],
 	},
 ]
 
