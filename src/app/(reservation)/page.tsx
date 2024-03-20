@@ -1,3 +1,4 @@
+import AboutSection from '@/components/layouts/AboutSection'
 import FeaturesSection from '@/components/layouts/FeaturesSection'
 import HeroSection from '@/components/layouts/HeroSection'
 import { FC } from 'react'
@@ -7,6 +8,7 @@ const Homepage: FC = () => {
 		<>
 			<HeroSection />
 			<FeaturesSection />
+			<AboutSection />
 		</>
 	)
 }
